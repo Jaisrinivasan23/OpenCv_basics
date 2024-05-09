@@ -1,7 +1,6 @@
 from PIL import Image
-
-
 import pytesseract
+import cv2
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
